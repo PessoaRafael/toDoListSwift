@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  swift-app:
+    build: .
+    ports:
+      - "8080:8080" # Exponha a porta, se necessário
+    volumes:
+      - .:/app
+    command: swift run # Altere para o comando apropriado do seu projeto
