@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,6 +48,8 @@
 		1659EBEC23419F6E00BD510D /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1659EBEB23419F6E00BD510D /* PresentationView.swift */; };
 		166451F72340F78600E0E7AB /* Snapshot+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166451F62340F78600E0E7AB /* Snapshot+Identifiable.swift */; };
 		62C466B6D50DC4E3DEB3B9B5 /* Pods_FireTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF89887ED6E8B4FB54B4C02 /* Pods_FireTodo.framework */; };
+		D87B24CB2CD8E3DF0001AE9D /* Dockerfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87B24CA2CD8E3DF0001AE9D /* Dockerfile.swift */; };
+		D87B24CD2CD8E4650001AE9D /* docker-compose.yml  in Resources */ = {isa = PBXBuildFile; fileRef = D87B24CC2CD8E4650001AE9D /* docker-compose.yml  */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,8 @@
 		166451F62340F78600E0E7AB /* Snapshot+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Snapshot+Identifiable.swift"; sourceTree = "<group>"; };
 		5FF89887ED6E8B4FB54B4C02 /* Pods_FireTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B5A374F3B1B0B109A5E5B2 /* Pods-FireTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireTodo.release.xcconfig"; path = "Target Support Files/Pods-FireTodo/Pods-FireTodo.release.xcconfig"; sourceTree = "<group>"; };
+		D87B24CA2CD8E3DF0001AE9D /* Dockerfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dockerfile.swift; sourceTree = "<group>"; };
+		D87B24CC2CD8E4650001AE9D /* docker-compose.yml  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "docker-compose.yml "; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				160702922337231400A57BE8 /* LaunchScreen.storyboard */,
 				160702952337231400A57BE8 /* Info.plist */,
 				1607028F2337231400A57BE8 /* Preview Content */,
+				D87B24CA2CD8E3DF0001AE9D /* Dockerfile.swift */,
+				D87B24CC2CD8E4650001AE9D /* docker-compose.yml  */,
 			);
 			path = FireTodo;
 			sourceTree = "<group>";
@@ -407,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				160702942337231400A57BE8 /* LaunchScreen.storyboard in Resources */,
+				D87B24CD2CD8E4650001AE9D /* docker-compose.yml  in Resources */,
 				1616B0C92338D92B000CAC33 /* GoogleService-Info.plist in Resources */,
 				160702912337231400A57BE8 /* Preview Assets.xcassets in Resources */,
 				1607028E2337231400A57BE8 /* Assets.xcassets in Resources */,
@@ -501,6 +508,7 @@
 				1607028C2337231300A57BE8 /* ContentView.swift in Sources */,
 				166451F72340F78600E0E7AB /* Snapshot+Identifiable.swift in Sources */,
 				1616B0BE2337B472000CAC33 /* SignUpView.swift in Sources */,
+				D87B24CB2CD8E3DF0001AE9D /* Dockerfile.swift in Sources */,
 				16500B08233C5C5A00D5B47B /* ColorSelectView.swift in Sources */,
 				1616B0AD2337818A000CAC33 /* AppState.swift in Sources */,
 				1616B0B623378BF7000CAC33 /* AuthState.swift in Sources */,
